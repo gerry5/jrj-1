@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# 更新apt-get
+echo "Update apt-get..."
+sudo apt-get update > /dev/null
+echo "[ OK ]"
+
 # 检查python3
 which python3 > /dev/null
 if [ $? -eq 0 ]
