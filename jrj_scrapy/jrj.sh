@@ -11,13 +11,13 @@ fi
 which pip3 > /dev/null
 if [ $? -eq 0 ]
 then
-    echo "Pip3 Exists. [ OK ]"
+    echo "Pip Exists. [ OK ]"
 else
     echo "Install Pip3..."
     sudo apt-get install python3-pip
     echo "[ OK ]"
     echo "Upgrade Pip3..."
-    pip3 install --upgrade pip
+    pip install --upgrade pip
     echo "[ OK ]"
 fi
 
@@ -44,7 +44,7 @@ else
 fi
 
 # 检查Scrapy包
-venv/bin/pip3 list --format=columns | grep Scrapy > /dev/null
+venv/bin/pip3 list | grep Scrapy > /dev/null
 if [ $? -eq 0 ]
 then
     echo "Scrapy Installed. "
@@ -55,7 +55,7 @@ else
 fi
 
 # 检查Pymysql包
-venv/bin/pip3 list --format=columns | grep PyMySQL > /dev/null
+venv/bin/pip3 list | grep PyMySQL > /dev/null
 if [ $? -eq 0 ]
 then
     echo "PyMySQL Installed. "
