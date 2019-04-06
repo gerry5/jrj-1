@@ -38,12 +38,15 @@ else
         echo "Python3-venv Not Exists. Installing..."
         sudo apt-get install python3-venv
         echo "[ OK ]"
+        python3 -m venv venv
     else
         echo "Venv Created. [ OK ]"
     fi
 
     echo "[ OK ]"
 fi
+
+
 
 # 升级pip
 echo "Upgrade Pip3..."
