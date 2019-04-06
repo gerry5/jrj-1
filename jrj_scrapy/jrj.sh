@@ -30,14 +30,14 @@ else
     echo "Venv Not Found. Creating..."
     python3 -m venv venv
 
-    # 为空则成功，否则安装
-    if [ $? -eq 0 ]
+    # 安装python3-venv
+    if [ $? -eq 1 ]
     then
         echo "Python3-venv Not Exists. Installing..."
         sudo apt-get install python3-venv
         echo "[ OK ]"
     else
-        echo "[ OK ]"
+        echo "Venv Created. [ OK ]"
     fi
 
     echo "[ OK ]"
