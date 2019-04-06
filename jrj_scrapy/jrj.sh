@@ -16,9 +16,6 @@ else
     echo "Install Pip3..."
     sudo apt-get install python3-pip
     echo "[ OK ]"
-    echo "Upgrade Pip3..."
-    pip install --upgrade pip
-    echo "[ OK ]"
 fi
 
 # 检查虚拟环境
@@ -42,6 +39,11 @@ else
 
     echo "[ OK ]"
 fi
+
+# 升级pip
+echo "Upgrade Pip3..."
+venv/bin/pip3 install --upgrade pip
+echo "[ OK ]"
 
 # 检查Scrapy包
 venv/bin/pip3 list | grep Scrapy > /dev/null
