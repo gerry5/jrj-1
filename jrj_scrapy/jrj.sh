@@ -8,7 +8,7 @@ then
 fi
 
 # 检查pip3
-which pip > /dev/null
+which pip3 > /dev/null
 if [ $? -eq 0 ]
 then
     echo "Pip3 Exists. [ OK ]"
