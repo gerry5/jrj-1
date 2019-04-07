@@ -19,7 +19,7 @@ SAVE_TABLE = "jrj_registered"
 BAD_TABLE = "jrj_403"
 
 STARTPAGE = 0
-ENDPAGE   = 1
+ENDPAGE   = 100
 PAGESIZE  = 10000
 
 
