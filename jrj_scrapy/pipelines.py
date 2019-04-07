@@ -17,7 +17,7 @@ COLUMN    = "mobile"
 SAVE_TABLE = "jrj_registered"
 
 STARTPAGE = 0
-ENDPAGE   = 100
+ENDPAGE   = 1000
 PAGESIZE  = 10000
 
 
