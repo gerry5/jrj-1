@@ -7,16 +7,14 @@
 
 import pymysql
 
-HOST      = "139.9.52.22"
+HOST      = "119.3.55.220"
 PORT      = 6789
-USER      = "jrj"
-PASSWORD  = "jrjwu"
-
+USER      = "4287e7ae11008807e536c6283f82ea2f"
+PASSWORD  = "2tU4yyHkwu"
 DATABASE  = "jrj"
 TABLE     = "jrjc"
 COLUMN    = "mobile"
 SAVE_TABLE = "jrj_registered"
-BAD_TABLE = "jrj_403"
 
 STARTPAGE = 0
 ENDPAGE   = 100
