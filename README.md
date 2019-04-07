@@ -12,8 +12,7 @@ rm -rf venv
 重新运行jrj.sh
 ```
 
-# 1. 配置mysql
-piplines.py
+# 1. 配置mysql在piplines.py中设置：
 ```
 HOST      = "192.168.10.145"
 PORT      = 3306
