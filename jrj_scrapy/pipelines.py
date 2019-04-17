@@ -12,12 +12,12 @@ PORT      = 6789
 USER      = "4287e7ae11008807e536c6283f82ea2f"
 PASSWORD  = "2tU4yyHkwu"
 DATABASE  = "jrj"
-TABLE     = "friend_new_h_backup_20180827"
+TABLE     = "j22"
 COLUMN    = "mobile"
 SAVE_TABLE = "jrj_registered"
 
-STARTPAGE = 0
-ENDPAGE   = 400
+STARTPAGE = 700
+ENDPAGE   = 730
 PAGESIZE  = 10000
 
 
