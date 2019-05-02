@@ -12,12 +12,12 @@ PORT      = 6789
 USER      = "4287e7ae11008807e536c6283f82ea2f"
 PASSWORD  = "2tU4yyHkwu"
 DATABASE  = "jrj"
-TABLE     = "j22"
+TABLE     = "htsec_registered"
 COLUMN    = "mobile"
 SAVE_TABLE = "jrj_registered"
 
-STARTPAGE = 700
-ENDPAGE   = 730
+STARTPAGE = 0
+ENDPAGE   = 100
 PAGESIZE  = 10000
 
 
