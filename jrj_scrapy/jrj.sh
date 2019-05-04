@@ -23,6 +23,22 @@ else
     echo "[ OK ]"
 fi
 
+which python > /dev/null
+if [ $? -eq 0 ]
+then
+    echo "Python Exists. [ OK ]"
+fi
+
+which pip > /dev/null
+if [ $? -eq 0 ]
+then
+    echo "Pip Exists. [ OK ]"
+else
+    echo "Install Pip..."
+    sudo apt-get install python-pip
+    echo "[ OK ]"
+fi
+
 # 检查虚拟环境
 ls | grep venv > /dev/null
 if [ $? -eq 0 ]
@@ -73,8 +89,4 @@ else
     echo "Installing PyMySQL..."
     venv/bin/pip3 install pymysql > /dev/null
     echo "[ OK ]"
-fi
 
-
-# 运行
-venv/bin/scrapy crawl jrj --nolog
